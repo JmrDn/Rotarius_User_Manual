@@ -1,0 +1,228 @@
+<resources>
+    <string name="app_name">User Manual</string>
+    <string name="power_on_details">
+        • Turn on the solar-powered power supply to activate the hardware components.
+    </string>
+    <string name="servo_motor_control_details">
+        • Use the Logitech Extreme 3D Pro joystick to control the collective movement of the helicopter rotor assembly.\n\n
+        • Push the joystick forward, backward, left, or right to maneuver the rotor assembly accordingly.
+    </string>
+    <string name="stepper_motor_speed_control_details">
+        • Rotate the potentiometer knob to adjust the speed of the stepper motor.\n\n
+        • Turn the knob clockwise to increase speed and counterclockwise to decrease speed.
+    </string>
+    <string name="hardware_not_responding_details">
+        • Ensure that the power supply is turned on and properly connected.\n\n
+        • Check the connections between the servo motors, stepper motor, and Arduino Mega controller.\n\n
+        • Verify that the Arduino Mega is powered on and functioning correctly.\n\n
+        • If hardware components are damaged or malfunctioning, spare parts for each component will be provided for replacement.
+    </string>
+    <string name="stepper_motor_speed_issues">
+        • If the stepper motor speed is not adjusting as expected:\n\n
+          \t\t -Check the wiring connections between the potentiometer and the Arduino Mega.\n\n
+        • Ensure that the potentiometer is functioning properly by testing with a multimeter.\n\n
+        • Adjust the code in the Arduino Mega to calibrate the speed control.\n\n
+        • If the stepper motor itself is faulty, spare stepper motor components will be provided for replacement.
+    </string>
+
+    <string name="servo_motors_not_moving_details">
+        If the servo motors are not responding to joystick inputs:\n\n
+        \t\t • Confirm that the Logitech Extreme 3D Pro joystick is connected securely to the Arduino Mega.\n\n
+        \t\t • Check the code in the Arduino Mega to ensure proper mapping of joystick inputs to servo motor control.\n\n
+        \t\t • Verify that the servo motors are receiving power and are connected correctly to the Arduino Mega.\n\n
+        \t\t • If the servo motors are damaged or malfunctioning, spare servo motor components will be provided for replacement.
+    </string>
+
+    <string name="arduino_mega_reset">
+        If troubleshooting does not resolve the issue, try resetting the Arduino Mega:\n\n
+        \t\t • Locate the reset button on the Arduino Mega board.\n\n
+        \t\t • Press the reset button to restart the microcontroller and reset any potential software issues.\n\n
+        \t\t • After resetting, check if the hardware components respond as expected.\n\n
+        \t\t • If the Arduino Mega itself is damaged or malfunctioning, spare Arduino Mega boards will be provided for replacement.
+    </string>
+    <string name="further_assistance_details">
+        If issues persist, refer to the project documentation or seek assistance from a knowledgeable individual with experience in Arduino programming and hardware troubleshooting. Spare parts will be available upon request for replacement of damaged or malfunctioning components.\n\n
+
+    </string>
+
+    <string name="components">
+        • 4 MG996R Servo Motors: Responsible for collective movement.\n\n
+        • NEMA 17 Stepper Motor: Controls the throttle.\n\n
+        • Arduino Mega: Main controller board for the system.\n\n
+        • Potentiometer: Used to control the speed of the stepper motor.\n\n
+        • Logitech Extreme 3D Pro: Controller for collective movements.\n\n
+        • Solar-Powered Power Supply: Provides power to the entire system.\n\n
+        • 3D Printed Parts: Includes rotor blades, swashplates, and other structural components.
+    </string>
+
+    <string name="assembly">
+        \t\t • Connect the MG996R servo motors to their designated positions on the rotor assembly.\n\n
+        \t\t • Attach the NEMA 17 stepper motor to its mounting point.\n\n
+        \t\t • Connect the potentiometer to the stepper motor driver.\n\n
+        \t\t• Mount the Logitech Extreme 3D Pro controller securely.\n\n
+        \t\t• Assemble the 3D printed parts as per the provided diagram.
+    </string>
+    <string name="wiring_and_connections">
+        \t\t• Connect the servo motors to the designated pins on the Arduino Mega.\n\n
+        \t\t• Wire the stepper motor to its driver, and then connect the driver to the Arduino Mega.\n\n
+        \t\t• Attach the potentiometer to the appropriate analog input on the Arduino Mega.\n\n
+        \t\t• Connect the Logitech Extreme 3D Pro to the Arduino Mega via the USB port.\n\n
+        \t\t• Ensure all connections are secure and tidy
+    </string>
+
+    <string name="power_supply">
+        \t\t• Connect the solar-powered power supply to the Arduino Mega and other components.\n\n
+        \t\t• Ensure the power supply is placed in an area with sufficient sunlight.
+
+    </string>
+    <string name="initial_power_on">
+        \t\t• Turn on the solar-powered power supply.\n\n
+        \t\t• Verify that all components receive power and the Arduino Mega lights up.
+    </string>
+
+    <string name="turning_on_the_system">
+        \t\t• Switch on the solar-powered power supply.\n\n
+        \t\t• Ensure all components are powered up correctly
+    </string>
+    <string name="controlling_the_rotor_assembly">
+        \t\t• Use the Logitech Extreme 3D Pro controller to manage collective movements.\n\n
+        \t\t• Push the stick forward/backward to control pitch.\n\n
+        \t\t• Adjust the potentiometer to control the speed of the NEMA 17 stepper motor
+    </string>
+    <string name="calibration_and_testing">
+        \t\t• Perform initial tests by moving the controller to ensure the servo motors respond correctly.\n\n
+        \t\t• Adjust the potentiometer and verify the stepper motor’s speed changes accordingly.
+    </string>
+    <string name="safety_precautions">
+        \t\t• Always turn off the power supply before making any adjustments.\n\n
+        \t\t• Handle all components with care to avoid damage.\n\n
+        \t\t• Ensure the rotor assembly is placed in a safe, stable area during operation.
+    </string>
+    <string name="power_issues">
+        \t• Solution:\n\n
+        \t\t\t\t1. Check if the solar-powered power supply is properly connected and exposed to sufficient sunlight.\n\n
+        \t\t\t\t2. Ensure all connections from the power supply to the hardware are secure.\n\n
+        \t\t\t\t3. Verify that the power switch is turned on.
+
+    </string>
+
+    <string name="servo_motors_issue">
+        \t• Solution:\n\n
+        \t\t\t\t1. Ensure that the Logitech Extreme 3D Pro controller is properly connected to the Arduino Mega.\n\n
+        \t\t\t\t2. Check the connections between the servo motors and the Arduino Mega.\n\n
+        \t\t\t\t3. Press the reset button on the Arduino Mega to restart the system.
+    </string>
+
+    <string name="stepper_motor_issues">
+        \t• Solution:\n\n
+        \t\t\t\t1. Check the connection between the stepper motor and the potentiometer.\n\n
+        \t\t\t\t2. Ensure the stepper motor driver is properly connected to the Arduino Mega.\n\n
+        \t\t\t\t3. Press the reset button on the Arduino Mega to restart the system.
+    </string>
+    <string name="connetivity_issues">
+        \t• Solution:\n\n
+        \t\t\t\t1. Ensure all cables and connections between components (Arduino Mega, servo motors, stepper motor, potentiometer, and Logitech controller) are secure.\n\n
+        \t\t\t\t2. Check for any loose wires or broken connections.\n\n
+        \t\t\t\t3. Reset the Arduino Mega to re-establish connections.
+
+    </string>
+    <string name="movement_issues">
+        \t• Solution:\n\n
+        \t\t\t\t1. Check the alignment and secure mounting of all mechanical parts.\n\n
+        \t\t\t\t2. Ensure the servo motors and stepper motor are properly calibrated and receiving correct signals from the Arduino.
+    </string>
+    <string name="general_maintenance">
+        \t• Solution:\n\n
+        \t\t\t\t1. Regularly check all connections and secure any loose wires or components.\n\n
+        \t\t\t\t2. Clean the hardware components to prevent dust and debris buildup.\n\n
+        \t\t\t\t3. Lubricate moving parts to ensure smooth operation.
+    </string>
+    <string name="software_issues">
+        \t• Solution:\n\n
+        \t\t\t\t1. Ensure the latest version of the software is installed.\n\n
+        \t\t\t\t2. Restart the software and, if necessary, reinstall it.
+    </string>
+    <string name="emergency_shutdown">
+        \t• Solution:\n\n
+        \t\t\t\t1. Turn off the power supply immediately.\n\n
+        \t\t\t\t2. Disconnect the solar power supply from the hardware.\n\n
+        \t\t\t\t3. Ensure all components have powered down safely before performing any checks or repairs.\n\n
+    </string>
+    <string name="MG996R_servo_motors">
+        \t\t• Description: The MG996R is a high-torque servo motor commonly used in robotics and mechanical applications.\n\n
+        \t\t• Function: Responsible for controlling the collective movement of the helicopter rotor blades, allowing for precise adjustments in pitch.\n\n
+        \t\t• Key Features:\n\n
+        \t\t\t\t• High torque output\n\n
+        \t\t\t\t• Metal gears for durability\n\n
+        \t\t\t\t• Wide operating voltage range\n\n
+    </string>
+    <string name="NEMA_17_Stepper_Motor">
+        \t\t• Description: A type of stepper motor widely used in 3D printers, CNC machines, and other applications requiring precise control of movement.\n\n
+        \t\t• Function: Controls the throttle of the rotor assembly, regulating the speed of the rotor blades.\n\n
+        \t\t• Key Features:\n\n
+        \t\t\t\t• High precision and control\n\n
+        \t\t\t\t• Robust and reliable performance\n\n
+        \t\t\t\t• Multiple step angles for detailed movement
+
+    </string>
+    <string name="Arduino_Mega">
+        \t\t• Description: A microcontroller board based on the ATmega2560, offering extensive I/O capabilities.\n\n
+        \t\t• Function: Acts as the main controller for the system, processing inputs from the potentiometer and the Logitech controller to manage the servo and stepper motors.\n\n
+        \t\t• Key Features:\n\n
+        \t\t\t\t• 54 digital I/O pins\n\n
+        \t\t\t\t• 16 analog inputs\n\n
+        \t\t\t\t• Large memory capacity for complex programs
+
+    </string>
+
+    <string name="potentiometer">
+        \t\t• Description: An adjustable resistor used to control electrical devices.\n\n
+        \t\t• Function: Used to adjust the speed of the NEMA 17 stepper motor by varying resistance and providing input to the Arduino Mega.\n\n
+        \t\t• Key Features:\n\n
+        \t\t\t\t• Smooth rotation for precise control\n\n
+        \t\t\t\t• Durable construction\n\n
+        \t\t\t\t• Easy to integrate with microcontrollers
+    </string>
+    <string name="Logitech_Extreme_3D_Pro">
+        \t\t• Description: A joystick controller designed for gaming and simulation applications.\n\n
+        \t\t• Function: Provides input for controlling the collective movements of the rotor blades, allowing users to simulate real-life helicopter maneuvers.\n\n
+        \t\t• Key Features:\n\n
+        \t\t\t\t• 12 programmable buttons\n\n
+        \t\t\t\t• High-precision joystick\n\n
+        \t\t\t\t• Comfortable and ergonomic design
+    </string>
+    <string name="Solar_Powered_Power_Supply">
+        \t\t• Description: A power supply unit that converts solar energy into electrical energy to power the system.\n\n
+        \t\t• Function: Provides renewable and sustainable power to the entire rotor assembly model.\n\n
+        \t\t• Key Features:\n\n
+        \t\t\t\t• Environmentally friendly energy source\n\n
+        \t\t\t\t• Reliable power output\n\n
+        \t\t\t\t• Reduces dependency on traditional power sources
+    </string>
+    <string name="Printed_Parts">
+    \t\t• <b> Swashplate </b>\n\n
+    \t\t\t\t• Description: A critical part of the rotor system that connects to the rotor blades.\n\n
+    \t\t\t\t• Function: Allows for the transfer of control inputs from the servos to the rotor blades.\n\n\n
+        \t\t• <b>Lower Swashplate</b>\n\n
+    \t\t\t\t• Description: Works in conjunction with the upper swashplate to control the blade pitch.\n\n
+    \t\t\t\t• Function: Ensures coordinated movement of the rotor blades.\n\n\n
+    \t\t• <b>Blade Grip</b>\n\n
+    \t\t\t\t• Description: Holds the rotor blades securely.\n\n
+    \t\t\t\t• Function: Ensures stable attachment of the rotor blades to the assembly.\n\n\n
+        \t\t• <b>Rotor Blades</b>\n\n
+    \t\t\t\t• Description: Main aerodynamic surfaces that generate lift.\n\n
+    \t\t\t\t• Function: Provide the necessary lift and thrust for the rotor assembly.\n\n\n
+        \t\t• <b>Ball Joint</b>\n\n
+    \t\t\t\t• Description: A spherical bearing allowing for multi-directional movement.\n\n
+    \t\t\t\t• Function: Facilitates smooth movement of control surfaces.\n\n\n
+        \t\t• <b>Rotor Mast</b>\n\n
+    \t\t\t\t• Description: The central shaft of the rotor system.\n\n
+    \t\t\t\t• Function: Supports the rotor blades and transmits rotational force.\n\n\n
+    \t\t•     <b>Base</b>\n\n
+    \t\t\t\t• Description: The foundation of the rotor assembly model.\n\n
+    \t\t\t\t• Function: Provides stability and support to the entire structure.\n\n\n
+        \t\t• <b>Servo Base</b>\n\n
+    \t\t\t\t• Description: Mounting platform for servo motors.\n\n
+    \t\t\t\t• Function: Secures the servos in place for optimal performance.
+    </string>
+</resources>
